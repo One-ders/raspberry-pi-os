@@ -1,0 +1,1 @@
+qemu-system-aarch64 -machine raspi3b -cpu cortex-a53 -m 1G -smp 4 -serial null -serial mon:stdio -device loader,file=kernel8.img,addr=0
